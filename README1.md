@@ -1,11 +1,11 @@
 # Legal Text Analytics
+
 [![LTA](https://img.shields.io/badge/CLP-Ecosystem-blue?style=flat-square)](https://github.com/Liquid-Legal-Institute/Common-Legal-Platform)
 [![LTA](https://img.shields.io/badge/CLP-Code-red?style=flat-square)](https://github.com/Liquid-Legal-Institute/Common-Legal-Platform)
 [![LTA](https://img.shields.io/badge/CLP-Community-orange?style=flat-square)](https://github.com/Liquid-Legal-Institute/Common-Legal-Platform)
 [![LTA](https://img.shields.io/badge/License-CC_BY--SA_4.0-lightgrey?style=flat-square)](https://creativecommons.org/licenses/by-sa/4.0/)
 
 A list of selected resources, methods, and tools dedicated to Legal Text Analytics. 
-
 
 ![Logo](/images/unsplashmainimage.png)
 
@@ -16,27 +16,44 @@ _Please read the [contribution guidelines](contributing.md) before contributing.
 ## Contents
 
 * [Selected Tasks and Use Cases](#selected-tasks-and-use-cases)
+
 * [Methods](#methods)
+
 * [Libraries](#libraries)
+
 * [Datasets and Data](#datasets-and-data)
+
 * [Large Language Models and GPT](#large-language-models-and-gpt)
+
 * [Annotation and Data Schemes](#annotation-and-data-schemes)
+
 * [Annotation Tools](#annotation-tools)
+
 * [Software (interfaces)](#software-interfaces)
+
 * [Research Groups and Labs](#research-groups-labs-and-communities)
+
 * [Tutorials](#tutorials)
-<!---* [Conferences](#conferences)--->
-<!---* [Tutorials and Online Courses](#tutorials)
+  
+  <!---* [Conferences](#conferences)--->
+  
+  <!---* [Tutorials and Online Courses](#tutorials)
   * [Reading Content](#reading-content)
   * [Videos and Courses](#videos-and-online-courses)
   * [Books](#books)--->
-<!---* [LTA in German](#nlp-in-korean)
+  
+  <!---* [LTA in German](#nlp-in-korean)
+
 * [LTA in English](#nlp-in-arabic)
+
 * [LTA in Chinese](#nlp-in-chinese)
+
 * [LTA in French](#nlp-in-german)--->
+
 * [Credits](#credits)
 
 ## Selected Tasks and Use Cases
+
 [Back to Top](#contents)
 
 - [Optical Character Recognition](https://en.wikipedia.org/wiki/Optical_character_recognition) (find more information [here](https://github.com/Liquid-Legal-Institute/Legal-Text-Analytics/blob/main/use-cases-details.md#optical-character-recognition))
@@ -62,6 +79,7 @@ _Please read the [contribution guidelines](contributing.md) before contributing.
 - [Natural Language Processing in the Legal Domain](https://papers.ssrn.com/sol3/papers.cfm?abstract_id=4336224)
 
 ## Methods
+
 [Back to Top](#contents)
 
 - [NLP Progress](https://nlpprogress.com/)
@@ -74,7 +92,9 @@ _Please read the [contribution guidelines](contributing.md) before contributing.
 - Domain adaptation (e.g., [research paper](https://arxiv.org/pdf/2102.05757.pdf))
 
 ## Libraries
+
 [Back to Top](#contents)
+
 - [Spacy - Industrial-Strength Natural Language Processing](https://spacy.io/)
 - [Scikit - machine learning in python](https://scikit-learn.org/)
 - [NLTK - Natural Language Toolkit](https://www.nltk.org)
@@ -95,7 +115,9 @@ _Please read the [contribution guidelines](contributing.md) before contributing.
 - [Case Law Explorer](https://github.com/maastrichtlawtech/case-law-explorer) - Materials for building a network analysis software platform for analyzing Dutch and European court decisions
 
 ## Datasets and Data
+
 [Back to Top](#contents)
+
 - [NLP Datasets](https://github.com/niderhoff/nlp-datasets)
 - [An 800GB Dataset of Diverse Text for Language Modeling](https://pile.eleuther.ai/)
 - Meta Search: [Google Dataset Search](https://datasetsearch.research.google.com/)
@@ -117,50 +139,10 @@ _Please read the [contribution guidelines](contributing.md) before contributing.
 - [MultiLegalSBD](https://arxiv.org/abs/2305.01211): A Multilingual Legal Sentence Boundary Detection Dataset
 - [MultiLegalNeg](https://huggingface.co/datasets/rcds/MultiLegalNeg)
 - [Awesome Legal Data](https://github.com/openlegaldata/awesome-legal-data)
-- Germany: [Gesetze im Internet](https://www.gesetze-im-internet.de/), [Rechtsprechung im Internet](http://www.rechtsprechung-im-internet.de/), [Verwaltungsvorschriften im Internet](http://www.verwaltungsvorschriften-im-internet.de/)
-- Germany: [Annotated Court Decisions (Judgment style)](https://zenodo.org/record/3936490)
-- Germany: [German Federal Courts Dataset](https://www.richter-im-internet.de)
-- Germany: Quantitative dataset of asylum court hearings at German administrative courts. [ASYFAIR](https://datadryad.org/stash/dataset/doi:10.5061%2Fdryad.sxksn032f)
-- Germany: Answering legal questions from laymen in German civil law system: Data and code. [EACL Paper 2024](https://github.com/trusthlt/eacl24-german-legal-questions)
-- Germany: [Detecting void  clauses in German standard form consumer contracts](https://github.com/DaBr01/AGB-DE)
-- Germany: [Aktenzeichen der Bundesrepublik Deutschland (AZ-BRD)](https://doi.org/10.5281/zenodo.4559383)
-- Germany: [Corpus des Deutschen Bundesrechts (C-DBR)](https://doi.org/10.5281/zenodo.3832111)
-- Germany: [Corpus der Entscheidungen des Bundesverfassungsgerichts (CE-BVerfG)](https://doi.org/10.5281/zenodo.3902658)
-- Germany: [Corpus der amtlichen Entscheidungssammlung des Bundesverfassungsgerichts (C-BVerfGE)](https://doi.org/10.5281/zenodo.3831111)
-- Germany: [Corona-Rechtsprechung des Bundesverfassungsgerichts (BVerfG-Corona)](https://doi.org/10.5281/zenodo.4459405)
-- Germany: [Corpus der Entscheidungen des Bundesverwaltungsgerichts (CE-BVerwG)](https://doi.org/10.5281/zenodo.3911067)
-- Germany: [Corpus der Entscheidungen des Bundesarbeitsgerichts (CE-BAG)](https://doi.org/10.5281/zenodo.4006644)
-- Germany: [Corpus der Entscheidungen des Bundespatentgerichts (CE-BPatG)](https://doi.org/10.5281/zenodo.3954850)
-- Germany: [Corpus der Entscheidungen des Bundesgerichtshofs (CE-BGH)](https://zenodo.org/record/7699032)
-- Germany: [Presidents and Vice-Presidents of the Federal Courts of Germany (PVP-FCG)](https://doi.org/10.5281/zenodo.4568681)
-- Germany: [Stoppwörter der Deutschen Rechtssprache (SW-DE-RS)](https://doi.org/10.5281/zenodo.3995593)
-- France: [The French Court Decision Structure dataset — FCD12K](http://datasets.doctrine.fr/)
-- Switzerland: [Swiss Legislation Corpus](https://pub.cl.uzh.ch/corpora/PaCoCo/Swiss_Legislation_Corpus/) French and German
-- Switzerland: [Swiss Federal Supreme Court Dataset (SCD)](https://doi.org/10.5281/zenodo.7793043)
-- Switzerland: [Swiss Judgment Prediction](https://huggingface.co/datasets/rcds/swiss_judgment_prediction)
-- Switzerland: [Swiss Judgment Prediction XL](https://huggingface.co/datasets/rcds/swiss_judgment_prediction_xl)
-- Switzerland: [Swiss Criticality Prediction](https://huggingface.co/datasets/rcds/swiss_criticality_prediction)
-- Switzerland: [Swiss Law Area Prediction](https://huggingface.co/datasets/rcds/swiss_law_area_prediction)
-- Switzerland: [Swiss Leading Decisions](https://huggingface.co/datasets/rcds/swiss_leading_decisions)
-- Switzerland: [Swiss Legislation](https://huggingface.co/datasets/rcds/swiss_legislation)
-- Switzerland: [Swiss Rulings](https://huggingface.co/datasets/rcds/swiss_rulings)
-- Switzerland: [Swiss Leading Decision Summarzation](https://huggingface.co/datasets/rcds/swiss_leading_decision_summarization)
-- Switzerland: [Swiss Citation Extraction](https://huggingface.co/datasets/rcds/swiss_citation_extraction)
-- Switzerland: [Swiss Court View Generation](https://huggingface.co/datasets/rcds/swiss_court_view_generation)
-- Switzerland: [Swiss Doc2Doc Information Retrieval](https://huggingface.co/datasets/rcds/swiss_doc2doc_ir)
-- Turkey: [Prediction of Outcomes in the Higher Courts of Turkey](https://github.com/koc-lab/law-turk)
-- India: [Indian Legal Documents Corpus for Court Judgment Prediction and Explanation](https://github.com/Exploration-Lab/CJPE)
-- ECtHR: [Judicial Decisions of the European Court of Human Rights](https://github.com/masha-medvedeva/ECtHR_crystal_ball)
-- ECtHR: [LaCour!: Enabling Research on Argumentation in Hearings of the European Court of Human Rights](https://github.com/trusthlt/lacour-corpus)
-- ECtHR: [Argument Mining Corpus](http://www.di.uevora.pt/~pq/echr/)
-- EU [Law (eurlex R Package)](https://cloud.r-project.org/web/packages/eurlex/index.html), [Digital Corpus of the European Parliament (DCEP)](https://ec.europa.eu/jrc/en/language-technologies/dcep) 
-- EU [Regulatory Compliance Information Retrieval](https://archive.org/details/eacl2021_regir_datasets)
-- EU [LEXTREME](https://huggingface.co/datasets/joelito/lextreme)
-- Israel: [The Israeli Supreme Court Database](https://iscd.huji.ac.il/data)
+- ](https://iscd.huji.ac.il/data)
 - Canada: [Federal Laws and Regulations](ftp://205.193.86.89/) (ftp://205.193.86.89/)
 - UK: [UK Law Reports & Case Law Search](https://www.iclr.co.uk/)
 - UK: [Cambridge Law Corpus](https://www.cst.cam.ac.uk/research/srg/projects/law)
-- Australia: [Open Australian Legal Corpus](https://huggingface.co/datasets/umarbutler/open-australian-legal-corpus) — The first and only multijurisdictional open corpus of Australian legislative and judicial documents
 - [US Statutory Law Interpretation Data Set](https://github.com/jsavelka/statutory_interpretation)
 - [US Caselaw Sentence Boundary Detection Dataset](https://github.com/jsavelka/sbd_adjudicatory_dec.git)
 - [US Caselaw Functional and Issue Specific Segmentation Dataset](https://github.com/jsavelka/us-dec-func-iss-sgm/tree/master)
@@ -177,17 +159,15 @@ _Please read the [contribution guidelines](contributing.md) before contributing.
 - United Nations: [United Nations General Debate Corpus](https://dataverse.harvard.edu/dataset.xhtml?persistentId=doi:10.7910/DVN/0TJX8Y), [United Nations Parallel Corpus](https://conferences.unite.un.org/uncorpus)
 - [Contract Understanding Atticus Dataset](https://www.atticusprojectai.org/cuad) by [The Atticus Project](https://www.atticusprojectai.org/): A corpus of 13,000+ labels in 510 commercial legal contracts with rich expert annotations.
 - [Kira Systems M&A Dataset](https://kirasystems.com/science/dataset-and-examination-of-passages-for-due-diligence/) by [Kira Systems](https://kirasystems.com/): A non-commercial use dataset comprising 4,400 documents and labels for 50 legal concepts in the M&A Due Diligence setting.
-- India: [ILSI Dataset for Legal Statute Identification](https://github.com/Law-AI/LeSICiN)
-- India: [Dataset for Semantic Segmentation / Rhetorical Role Labeling](https://github.com/Law-AI/semantic-segmentation)
-- India: [Summarization with Multiple Datasets](https://github.com/Law-AI/summarization)
-- India: [BUILDNyAI](https://github.com/Legal-NLP-EkStep/rhetorical-role-baseline)
-- [European Patent Office - EP full-text data for text analytics](https://www.epo.org/searching-for-patents/data/bulk-data-sets/text-analytics.html)
+- ](https://www.epo.org/searching-for-patents/data/bulk-data-sets/text-analytics.html)
 - [Google Patents Public Datasets: connecting public, paid, and private patent data](https://cloud.google.com/blog/topics/public-datasets/google-patents-public-datasets-connecting-public-paid-and-private-patent-data?hl=en)
 - [World Patent Information (WPI) - Documents technical domains from the major patenting authorities](https://zenodo.org/record/1489994#.Y_-ABuzMIeY)
 - [Genocide Transcript Corpus (GTC)](https://github.com/MiriamSchirmer/genocide-transcript-corpus)
 
 ## Large Language Models and GPT
+
 [Back to Top](#contents)
+
 - See dedicated repository on [Large Language Models (LLMs) and Generative Pre-trained Transformers (GPTs) for Legal](https://github.com/Liquid-Legal-Institute/Legal-LLMs-GPTs)
 - [ChatGPT at OpenAI](https://chat.openai.com/chat): [Examples](https://beta.openai.com/examples), [Documentation](https://beta.openai.com/docs/introduction), [Pricing](https://openai.com/api/pricing), [Fine-tuning ChatGPT](https://beta.openai.com/docs/api-reference/fine-tunes/create)
 - [Sketch summarizing ChatGPT](https://media.licdn.com/dms/image/C4D22AQFgVliRJ4RsBQ/feedshare-shrink_2048_1536/0/1674467662862?e=1677715200&v=beta&t=G1gCE8h2iA48210Ywl-TutuTGMjYM1euhbPXomp08Ws)
@@ -198,6 +178,7 @@ _Please read the [contribution guidelines](contributing.md) before contributing.
 - [Legal Language Models](https://huggingface.co/joelito)
 
 ## Annotation and Data Schemes
+
 [Back to Top](#contents)
 
 - [Annotation guidelines for Legal Entity Recognition (Germany)](https://github.com/elenanereiss/Legal-Entity-Recognition/blob/master/docs/Annotationsrichtlinien.pdf)
@@ -207,6 +188,7 @@ _Please read the [contribution guidelines](contributing.md) before contributing.
 - [SALI: Modern Legal Industry Standards](https://www.sali.org/)
 
 ## Annotation Tools
+
 [Back to Top](#contents)
 
 - [Awesome data annotation](https://github.com/taivop/awesome-data-annotation)
@@ -215,6 +197,7 @@ _Please read the [contribution guidelines](contributing.md) before contributing.
 - [Brat](https://brat.nlplab.org/)
 
 ## Software (interfaces)
+
 [Back to Top](#contents)
 
 - [Case Law Explorer - Network analysis software platform for analyzing Dutch and European court decisions](https://dev.d11iy22xsphp3a.amplifyapp.com/) - [User Guide](https://maastrichtlawtech.github.io/case-explorer-ui/#/userguide/)
@@ -223,6 +206,7 @@ _Please read the [contribution guidelines](contributing.md) before contributing.
 - [gesp - Download all publicly available German court decisions straight from your terminal](https://github.com/niklaswais/gesp)
 
 ## Research Groups, Labs, and Communities
+
 [Back to Top](#contents)
 
 - [Stanford University - CodeX: The Stanford Center for Legal Informatics](https://law.stanford.edu/codex-the-stanford-center-for-legal-informatics/)
@@ -245,6 +229,7 @@ _Please read the [contribution guidelines](contributing.md) before contributing.
 - [Maastricht Law and Tech Lab](https://www.maastrichtuniversity.nl/about-um/faculties/law/research/law-and-tech-lab)
 
 ## Tutorials
+
 [Back to Top](#contents)
 
 - [Monkey Learn - Text Analysis](https://monkeylearn.com/text-analysis/)
@@ -259,6 +244,7 @@ _Please read the [contribution guidelines](contributing.md) before contributing.
 - [Legal AI Learning Centre](https://www.simplexico.ai/learn)
 
 ## Credits
+
 [Back to Top](#contents)
 
 Many thanks to our [contributors](https://github.com/Liquid-Legal-Institute/Legal-Text-Analytics/graphs/contributors) and many more.
@@ -266,4 +252,5 @@ Many thanks to our [contributors](https://github.com/Liquid-Legal-Institute/Lega
 This work is licensed under a [Creative Commons Attribution-ShareAlike 4.0 International License][cc-by-sa].
 
 [cc-by-sa]: http://creativecommons.org/licenses/by-sa/4.0/
+
 [cc-by-sa-shield]: https://img.shields.io/badge/License-CC%20BY--SA%204.0-lightgrey.svg
